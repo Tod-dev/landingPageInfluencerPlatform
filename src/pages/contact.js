@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <Container fluid="true">
-      <Navigator2 />
+      <Navigator2 to="/Home" variant="outline-light" text="Torna alla Home" />
       <Header />
       <Footer link="Home" />
     </Container>

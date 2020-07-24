@@ -8,9 +8,9 @@ import Button from "react-bootstrap/Button";
 
 import logo from "../assets/img/logo192.png";
 
-const Navigator = () => {
+const Navigator = (props) => {
   return (
-    <Navbar bg="primary" variant="dark" expand="lg">
+    <Navbar sticky="top" bg="primary" variant="dark" expand="lg">
       <Link to="/Home">
         <Navbar.Brand href="">
           <img
@@ -31,8 +31,10 @@ const Navigator = () => {
         className="justify-content-end mr-5"
       >
         <Nav>
-          <Link to="/Home">
-            <Button variant="outline-light">Torna alla Home</Button>{" "}
+          <Link to={props.to}>
+            <Button style={props.style} variant={props.variant}>
+              {props.text}
+            </Button>
           </Link>
         </Nav>
       </Navbar.Collapse>

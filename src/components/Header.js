@@ -13,10 +13,13 @@ const Header = () => {
         <Container className="text-left mx-auto">
           <Row>
             <div className="col-xl-9 mx-4">
-              <h1 className="mb-5 titolo">
+              <h1 className="titolo">
                 <span>
                   Lancia la tua attività <br /> con il partner adatto
                 </span>
+                <p className="sottotitolo" style={{ fontSize: 30 }}>
+                  <span>La prima piattaforma di influencer in Italia</span>
+                </p>
               </h1>
             </div>
           </Row>

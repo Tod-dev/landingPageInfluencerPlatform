@@ -18,10 +18,18 @@ input[type="text"] {
 .sfondo {
   background: url("./assets/img/sfondo.jpg") no-repeat center center !important;
 }
-
 .titolo {
   color: white !important;
-  font-weight: bolder;
+  font-weight: bolder !important;
+  /* font-size: 300px !important; */
+}
+.sottotitolo {
+  margin-top: 5%;
+  font-style: oblique;
+  font-weight: 100;
+}
+.sottotitolo > span {
+  background: rgba(2, 13, 26, 0.7);
 }
 .titolo > span {
   background: rgb(0, 123, 255, 0.7);
