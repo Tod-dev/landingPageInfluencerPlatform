@@ -1,17 +1,13 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 
 import Container from "react-bootstrap/Container";
-import Tooltip from "react-bootstrap/Tooltip";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import Overlay from "react-bootstrap/Overlay";
 
-import { CopyToClipboard } from "react-copy-to-clipboard";
+import Message from "../components/message";
+
+import ENV from "../env";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
-  const target = useRef(null);
-
   const value = "passparolamail@prova.com";
   return (
     <Container fluid="true">
@@ -26,32 +22,9 @@ const Header = () => {
               <form>
                 <div className="form-row justify-content-center">
                   <Card className="mx-2">
-                    <Card.Body style={{ color: "black" }}>
-                      passparolamail@prova.com
-                    </Card.Body>
+                    <Card.Body style={{ color: "black" }}>{ENV.mail}</Card.Body>
                   </Card>
-
-                  <CopyToClipboard text={value} onCopy={() => setShow(true)}>
-                    <Button
-                      variant="primary"
-                      size="lg"
-                      className="mx-2"
-                      ref={target}
-                    >
-                      Copia
-                    </Button>
-                  </CopyToClipboard>
-                  <Overlay
-                    target={target.current}
-                    show={show}
-                    placement="right"
-                  >
-                    {(props) => (
-                      <Tooltip id="overlay-example" {...props}>
-                        Copiato!
-                      </Tooltip>
-                    )}
-                  </Overlay>
+                  <Message value={value} text="Copia" />
                 </div>
               </form>
             </div>

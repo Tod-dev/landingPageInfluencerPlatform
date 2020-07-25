@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import ENV from "../env";
+
 const Footer = (props) => {
   const link = props.link;
   return (
@@ -15,7 +17,7 @@ const Footer = (props) => {
               </li>
             </ul>
             <p className="text-muted small mb-4 mb-lg-0">
-              &copy; PassaParola.it 2020. All Rights Reserved.
+              &copy; {ENV.ourName} 2020. All Rights Reserved.
             </p>
           </div>
           <div className="col-lg-6 h-100 text-center text-lg-right my-auto">

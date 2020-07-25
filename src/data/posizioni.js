@@ -107,6 +107,15 @@ const provincie = [
   { nome: "Perugia ", sigla: "PG" },
   { nome: "Terni ", sigla: "TR" },
 ];
+
+const provs = provincie.sort((a, b) => {
+  const nomeA = a.nome.toUpperCase();
+  const nomeB = b.nome.toUpperCase();
+  if (nomeA < nomeB) return -1;
+  else if (nomeA > nomeB) return 1;
+  else return 0;
+});
+
 /*
 const posizioni = {
   regioni: [
@@ -278,4 +287,4 @@ const posizioni = {
   ],
 };
 */
-export default provincie;
+export default provs;

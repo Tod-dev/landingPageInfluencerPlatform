@@ -141,3 +141,12 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.filter-container {
+  margin: 50px auto;
+}
+
+.filter-title {
+  font-weight: bold;
+  margin-right: 20px;
+}

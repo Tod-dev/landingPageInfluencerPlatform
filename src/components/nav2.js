@@ -8,6 +8,8 @@ import Button from "react-bootstrap/Button";
 
 import logo from "../assets/img/logo192.png";
 
+import ENV from "../env";
+
 const Navigator = (props) => {
   return (
     <Navbar sticky="top" bg="primary" variant="dark" expand="lg">
@@ -21,7 +23,7 @@ const Navigator = (props) => {
             style={{ marginRight: 30 }}
             alt="/"
           />
-          PassaParola.it
+          {ENV.ourName}
         </Navbar.Brand>
       </Link>
 

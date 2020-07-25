@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 
 import SearchBar from "./SearchBar";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Container fluid="true">
       <header className="masthead text-white text-center sfondo">
