@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae6ce00882f388cccb0b02d5c782d7c3",
+    "revision": "7a3c003d9f050dd617cf585f11645750",
     "url": "/landingPageInfluencerPlatform/index.html"
   },
   {
-    "revision": "4deccc5f60b865fbac4c",
-    "url": "/landingPageInfluencerPlatform/static/css/main.2a122d11.chunk.css"
+    "revision": "8c90cb89fed416ba1996",
+    "url": "/landingPageInfluencerPlatform/static/css/main.90ac5780.chunk.css"
   },
   {
     "revision": "8e2a0d4f4878c0b794d4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landingPageInfluencerPlatform/static/js/2.5593b48c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4deccc5f60b865fbac4c",
-    "url": "/landingPageInfluencerPlatform/static/js/main.c701163d.chunk.js"
+    "revision": "8c90cb89fed416ba1996",
+    "url": "/landingPageInfluencerPlatform/static/js/main.93c2cf32.chunk.js"
   },
   {
     "revision": "729ae348bb0fd36fdcaf",
