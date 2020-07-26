@@ -21,10 +21,7 @@ const SingleInfluencer = (props) => {
         <Card.Title>
           {data.nome} {data.cognome}
         </Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
+        <Card.Text>{data.descrizione}</Card.Text>
         <Button variant="primary" onClick={() => {}}>
           Contatta
         </Button>
