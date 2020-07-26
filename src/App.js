@@ -29,7 +29,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <Container fluid="true">
-        <Router basename={process.env.NODE_ENV}>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
