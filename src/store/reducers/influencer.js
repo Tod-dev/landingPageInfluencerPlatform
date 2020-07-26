@@ -5,6 +5,7 @@ import {
   SET_POSITION,
   SET_CATEGORY,
   RESET_FILTER,
+  SET_INFLUENCER,
 } from "../actions/influencer";
 
 const initialState = {
@@ -15,6 +16,7 @@ const initialState = {
     name: "",
     sigla: "",
   },
+  actualInfluencer: "unset",
 };
 
 const influencerReducer = (state = initialState, action) => {
@@ -50,6 +52,8 @@ const influencerReducer = (state = initialState, action) => {
       };
     case RESET_FILTER:
       return initialState;
+    case SET_INFLUENCER:
+      return { ...state, actualInfluencer: action.data };
     default:
       return state;
   }

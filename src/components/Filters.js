@@ -15,7 +15,7 @@ const Filters = (props) => {
           <Card>
             <Card.Body>
               <span className="filter-title">Posizione:</span>
-              {pos.name}, {pos.sigla}
+              {pos.name}
             </Card.Body>
           </Card>
         </Col>

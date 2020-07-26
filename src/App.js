@@ -1,11 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  Redirect,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
 // pages
 import Home from "./pages/home";
 import Search from "./pages/search";
 import Contact from "./pages/contact";
+import Influencer from "./pages/InfluencerDetails";
+import NotFoundPage from "./pages/NotFoundPage";
 
 //* redux store
 import influencerReducer from "./store/reducers/influencer";
@@ -28,6 +35,9 @@ const App = () => {
             <Route exact path="/home" component={Home} />
             <Route exact path="/search" component={Search} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/profile" component={Influencer} />
+            <Route path="/404" component={NotFoundPage} />
+            <Redirect to="/404" />
           </Switch>
         </Router>
       </Container>

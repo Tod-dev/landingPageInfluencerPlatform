@@ -7,7 +7,8 @@ export default class Influencer {
     posizione,
     categorie,
     img,
-    socials
+    socials,
+    contatti
   ) {
     this.id = id;
     this.nome = nome;
@@ -17,5 +18,6 @@ export default class Influencer {
     this.categorie = categorie;
     this.img = img;
     this.socials = socials;
+    this.contatti = contatti;
   }
 }

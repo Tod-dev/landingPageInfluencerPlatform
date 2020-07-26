@@ -1,14 +1,12 @@
 import React from "react";
 
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
+import Alert from "react-bootstrap/Alert";
+import Button from "react-bootstrap/Button";
 
-import Message from "../components/message";
-
-import ENV from "../env";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const value = ENV.mail;
   return (
     <Container fluid="true">
       <header className="masthead text-white text-center">
@@ -16,15 +14,20 @@ const Header = () => {
         <Container>
           <div className="row">
             <div className="col-xl-9 mx-auto">
-              <h1 className="mb-5">Contattaci e lascia la tua opinione </h1>
+              <h1 className="mb-5">
+                <Alert variant="warning">
+                  Spiacienti, la pagina che ha cercato non esiste!
+                </Alert>
+              </h1>
             </div>
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <form>
                 <div className="form-row justify-content-center">
-                  <Card className="mx-2">
-                    <Card.Body style={{ color: "black" }}>{value}</Card.Body>
-                  </Card>
-                  <Message value={value} text="Copia" />
+                  <Link to="/Home">
+                    <Button size="lg" variant={"primary"}>
+                      Torna Alla Home
+                    </Button>
+                  </Link>
                 </div>
               </form>
             </div>
