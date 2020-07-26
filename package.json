@@ -19,6 +19,7 @@
     "react-social-icons": "^4.1.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "save": "^2.4.0",
     "save-dev": "0.0.1-security"
   },
   "scripts": {
