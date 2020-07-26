@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/landingPageInfluencerPlatform/static/css/main.2a122d11.chunk.css",
-    "main.js": "/landingPageInfluencerPlatform/static/js/main.8fe977be.chunk.js",
-    "main.js.map": "/landingPageInfluencerPlatform/static/js/main.8fe977be.chunk.js.map",
+    "main.js": "/landingPageInfluencerPlatform/static/js/main.c701163d.chunk.js",
+    "main.js.map": "/landingPageInfluencerPlatform/static/js/main.c701163d.chunk.js.map",
     "runtime-main.js": "/landingPageInfluencerPlatform/static/js/runtime-main.dfd18dce.js",
     "runtime-main.js.map": "/landingPageInfluencerPlatform/static/js/runtime-main.dfd18dce.js.map",
     "static/js/2.5593b48c.chunk.js": "/landingPageInfluencerPlatform/static/js/2.5593b48c.chunk.js",
     "static/js/2.5593b48c.chunk.js.map": "/landingPageInfluencerPlatform/static/js/2.5593b48c.chunk.js.map",
     "index.html": "/landingPageInfluencerPlatform/index.html",
-    "precache-manifest.b81645a0a0c961e210d1da1a4f0dc34b.js": "/landingPageInfluencerPlatform/precache-manifest.b81645a0a0c961e210d1da1a4f0dc34b.js",
+    "precache-manifest.cff98e72ae61d1c02d62920d6e51726d.js": "/landingPageInfluencerPlatform/precache-manifest.cff98e72ae61d1c02d62920d6e51726d.js",
     "service-worker.js": "/landingPageInfluencerPlatform/service-worker.js",
     "static/css/main.2a122d11.chunk.css.map": "/landingPageInfluencerPlatform/static/css/main.2a122d11.chunk.css.map",
     "static/js/2.5593b48c.chunk.js.LICENSE.txt": "/landingPageInfluencerPlatform/static/js/2.5593b48c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.dfd18dce.js",
     "static/js/2.5593b48c.chunk.js",
     "static/css/main.2a122d11.chunk.css",
-    "static/js/main.8fe977be.chunk.js"
+    "static/js/main.c701163d.chunk.js"
   ]
 }
