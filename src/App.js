@@ -31,31 +31,11 @@ const App = () => {
       <Container fluid="true">
         <Router>
           <Switch>
-            <Route
-              exact
-              path="landingPageInfluencerPlatform/"
-              component={Home}
-            />
-            <Route
-              exact
-              path="landingPageInfluencerPlatform/home"
-              component={Home}
-            />
-            <Route
-              exact
-              path="landingPageInfluencerPlatform/search"
-              component={Search}
-            />
-            <Route
-              exact
-              path="landingPageInfluencerPlatform/contact"
-              component={Contact}
-            />
-            <Route
-              exact
-              path="landingPageInfluencerPlatform/profile"
-              component={Influencer}
-            />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/search" component={Search} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/profile" component={Influencer} />
             <Route path="/404" component={NotFoundPage} />
             <Redirect to="/404" />
           </Switch>
